@@ -75,3 +75,20 @@ La estructura del proyecto sigue las mejores prácticas de desarrollo de Spring 
   - `com.example.todoapp.service.dto`: Contiene los DTOs (objetos de transferencia de datos) utilizados para la comunicación entre la API y los clientes.
   - `com.example.todoapp.persistence.entity`: Contiene las entidades que representan los objetos almacenados en la base de datos.
   - `com.example.todoapp.exceptions`: Contiene las excepciones usadas en la API.
+ 
+    ## Imagenes del proyecto
+    ![image](https://github.com/Nelsondav/API-REST-Spring-Boot/assets/74632296/5803da7c-68ce-4d90-9d0a-889a8a1114dd)
+    #POST
+    ![image](https://github.com/Nelsondav/API-REST-Spring-Boot/assets/74632296/a8dbfeab-e79c-40e8-b97a-fc7161d985f3)
+    #GET
+    ![image](https://github.com/Nelsondav/API-REST-Spring-Boot/assets/74632296/68a320dd-1fb2-4857-854d-9477148b9eb9)
+    #DELETE
+    ![image](https://github.com/Nelsondav/API-REST-Spring-Boot/assets/74632296/2d2b65be-050c-43c8-99c5-0c01c07a465b)
+    #PATCH (marcar tarea como finalizada)
+    ![image](https://github.com/Nelsondav/API-REST-Spring-Boot/assets/74632296/56cc5b6b-1395-4573-9fbc-e1184c9dfbd1)
+    #GET by id (optiene las tareas segun su estatus ON_TIME o LATE)
+    ![image](https://github.com/Nelsondav/API-REST-Spring-Boot/assets/74632296/46b9c59b-426a-47ba-9c9a-bb486659f7ce)
+
+
+    
+
