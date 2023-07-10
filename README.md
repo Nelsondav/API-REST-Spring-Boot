@@ -26,13 +26,13 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 1. Clona el repositorio en tu máquina local:
 
    ```shell
-   git clone https://github.com/tu_usuario/repo.git
+   git clone https://github.com/Nelsondav/API-REST-Spring-Boot.git
    ```
 
 2. Navega al directorio raíz del proyecto:
 
    ```shell
-   cd repo
+   cd AllApp
    ```
 
 3. Compila el proyecto utilizando Maven:
@@ -70,8 +70,8 @@ En esta interfaz, encontrarás una descripción completa de los endpoints dispon
 La estructura del proyecto sigue las mejores prácticas de desarrollo de Spring MVC:
 
 - `src/main/java`: Contiene el código fuente de la aplicación.
-  - `com.example.api`: Paquete principal que contiene las clases de configuración y de inicio de la aplicación.
-  - `com.example.api.controllers`: Contiene los controladores de la API, que manejan las solicitudes y respuestas HTTP.
-  - `com.example.api.dtos`: Contiene los DTOs (objetos de transferencia de datos) utilizados para la comunicación entre la API y los clientes.
-  - `com.example.api.entities`: Contiene las entidades que representan los objetos almacenados en la base de datos.
-  - `com.example.api.exceptions
+  - `com.example.todoapp`: Paquete principal que contiene las clases de configuración y de inicio de la aplicación.
+  - `com.example.todoapp.controller`: Contiene los controladores de la API, que manejan las solicitudes y respuestas HTTP.
+  - `com.example.todoapp.service.dto`: Contiene los DTOs (objetos de transferencia de datos) utilizados para la comunicación entre la API y los clientes.
+  - `com.example.todoapp.persistence.entity`: Contiene las entidades que representan los objetos almacenados en la base de datos.
+  - `com.example.todoapp.exceptions`: Contiene las excepciones usadas en la API.
